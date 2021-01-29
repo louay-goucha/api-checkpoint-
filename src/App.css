@@ -1,0 +1,44 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(12, 27, 32);
+  color: white;
+  height: 10vh;
+}
+button {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+}
+button:hover {
+  background-color: grey;
+}
+.links {
+  color: grey;
+  text-decoration: none;
+}
+.links:hover {
+  background-color: white;
+}
+.btns {
+  background-color: gray;
+  width: 150px;
+}
+
+.card_left {
+  width: 20%;
+  height: 200px;
+  float: left;
+  overflow: hidden;
+  background: transparent;
+}
+.card_right {
+  width: 40%;
+  float: inline-start;
+  background: #959599;
+  height: 20px;
+}
